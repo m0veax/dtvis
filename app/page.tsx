@@ -95,6 +95,7 @@ export default function Home() {
         <ReactFlow
           {...{ nodes, edges, nodeTypes, onNodesChange, onEdgesChange, onConnect }}>
           <Controls />
+          <MiniMap nodeStrokeWidth={5} maskStrokeWidth={3} maskColor={"#0f0"} pannable maskStrokeColor={"#f0f"} zoomable />
         </ReactFlow>
       </div>
     </main>
